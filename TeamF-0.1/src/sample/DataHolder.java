@@ -8,6 +8,7 @@ import javafx.scene.image.WritableImage;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Vector;
 
 public class DataHolder {
@@ -49,4 +50,6 @@ public class DataHolder {
     public double YWindow;
 
     public Node kiosk;
+
+    public HashMap<String, String> qAndA;
 }
